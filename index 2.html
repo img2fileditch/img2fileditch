@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Image Downloader</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Flask Image Downloader</h1>
+
+    <form method="post">
+        <label for="url">Image URL:</label>
+        <input type="text" id="url" name="url" required>
+        <button type="submit">Download</button>
+    </form>
+
+
+    <div id="message-box" style="display: none;">
+        <div id="message">{{ message }}</div>
+        <button id="copy-link">Copy Link</button>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $('#copy-link').on('click', function() {
+                navigator.clipboard.writeText('{{ url }}');
+            });
+
+            if ('{{ url }}' !== '') {
+                $('#message-box').show();
+            }
+        });
+    </script>
+</body>
+</html>
