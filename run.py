@@ -3,7 +3,7 @@ import subprocess
 
 if __name__ == '__main__':
     # Define the commands to run each Flask server
-    command_app1 = ['python', 'main.py']
+    command_app1 = ['python', 'website.py']
     command_app2 = ['python', 'bot.py']
 
     # Create separate processes for each Flask server
