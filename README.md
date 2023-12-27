@@ -1,15 +1,17 @@
-### img2fileditch
-## made by no name (zoro04878) & Glitchtest (#glitchtest)
+# img2fileditch
+## made by no name (#zoro04878) & Glitchtest (#glitchtest)
 
-# img2fileditch is a Website + DiscordBot to remotly upload Images to Fileditch.com!
+### img2fileditch is a Website + DiscordBot to remotly upload Images to Fileditch.com!
 
 Website: simply put a Image-URL into the box and press the download button!
 - wait a couple secounds...
+
 the fileditch-link will be displayed in a little box after the download finished!
 
 DiscordBot: just send a image, image url, or a embed with a image in it into a discord chat!
 reply to the message where the image is lovated and @img2fileditch the bot!
 - wait a couple secounds...
+
 the fileditch-link will be send into the same channel as where you mentioned the bot!
 ### !! MULTIPLE IMAGES INSIDE A SINGLE MESSAGE ARE SUPPORTED !!
 
