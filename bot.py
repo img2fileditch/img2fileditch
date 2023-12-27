@@ -57,4 +57,4 @@ async def on_message(ctx):
     await bot.process_commands(ctx)
 
 # Run Bot
-bot.run('')
+bot.run('TOKEN')
