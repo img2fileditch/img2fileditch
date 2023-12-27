@@ -5,10 +5,6 @@ from io import BytesIO
 
 app = Flask(__name__)
 
-def run_bot():
-    print("Bot started!")
-    subprocess.Popen(['python', 'bot.py'])
-
 def uploadfile(file:str):
     files = {'files[]': open(file, 'rb'),}
     response = requests.post('https://up1.fileditch.com/upload.php', files=files)
