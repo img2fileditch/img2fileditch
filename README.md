@@ -16,3 +16,9 @@ the fileditch-link will be send into the same channel as where you mentioned the
 ### !! MULTIPLE IMAGES INSIDE A SINGLE MESSAGE ARE SUPPORTED !!
 
 bot invite: https://discord.com/api/oauth2/authorize?client_id=1189376966147711027&permissions=274877991936&scope=bot
+
+
+
+for questions / lega-stuff / requests
+- email: img2fileditch@gmail.com
+- dicord: #zoro04878
